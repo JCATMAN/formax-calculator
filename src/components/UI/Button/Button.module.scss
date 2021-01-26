@@ -1,0 +1,106 @@
+@import "../../../assets/styles/styles";
+$size: 4vw;
+
+.buttonBigNumber {
+  color: #fff;
+  background-color: $SECONDARY;
+  border-radius: 3px;
+  border: none;
+  width: 8vw;
+  height: 4vw;
+  font-size: 21px !important;
+  &:focus {
+    border: none;
+    outline: none;
+  }
+}
+
+.buttonBigNumber:hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: $SECONDARYHOVER !important;
+}
+
+.buttonBigNumber:active {
+  color: #fff;
+  cursor: pointer;
+  background-color: $SECONDARYATPUSH;
+}
+
+.buttonBig {
+  color: #fff;
+  background-color: $PRIMARY;
+  border-radius: 3px;
+  border: none;
+  width: 8vw;
+  height: 4vw;
+  font-size: 21px !important;
+  &:focus {
+    border: none;
+    outline: none;
+  }
+}
+
+.buttonBig:hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: $PRIMARYHOVER !important;
+}
+
+.buttonBig:active {
+  color: #fff;
+  cursor: pointer;
+  background-color: $PRIMARYATPUSH;
+}
+
+.buttonNumber {
+  color: #fff;
+  background-color: $SECONDARY;
+  border-radius: 3px;
+  border: none;
+  width: $size;
+  height: $size;
+  font-size: 21px !important;
+  &:focus {
+    border: none;
+    outline: none;
+  }
+}
+
+.buttonNumber:hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: $SECONDARYHOVER !important;
+}
+
+.buttonNumber:active {
+  color: #fff;
+  cursor: pointer;
+  background-color: $SECONDARYATPUSH;
+}
+
+.button {
+  color: #fff;
+  background-color: $PRIMARY;
+  border-radius: 3px;
+  border: none;
+  width: $size;
+  height: $size;
+  font-size: 21px !important;
+  &:focus {
+    border: none;
+    outline: none;
+  }
+}
+
+.button:hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: $PRIMARYHOVER !important;
+}
+
+.button:active {
+  color: #fff;
+  cursor: pointer;
+  background-color: $PRIMARYATPUSH;
+}

@@ -1,0 +1,23 @@
+@import "../../assets/styles/styles";
+.container {
+  display: grid;
+  margin: 5% 0;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 100px);
+  column-gap: 2%;
+  row-gap: 2%;
+  width: 50vw;
+  place-self: center;
+}
+
+.number {
+  display: grid;
+  place-items: center;
+  background-color: $SECONDARY !important;
+  color: #f7f7f7;
+}
+
+.number:hover {
+  color: #fff;
+  background-color: $SECONDARYHOVER !important;
+}

@@ -1,0 +1,17 @@
+@import "../../assets/styles/styles";
+
+.centerContainer {
+  display: grid;
+  place-items: center;
+  place-self: center;
+}
+
+.display {
+  border: none;
+  border-bottom: solid 2.5px $PRIMARY;
+  font-size: 44px;
+  font-weight: lighter;
+  &:focus {
+    outline: none;
+  }
+}

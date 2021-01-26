@@ -1,0 +1,49 @@
+@import "../../assets/styles/styles";
+.container {
+  display: flex;
+  flex-direction: column !important;
+}
+
+.header {
+  display: flex;
+  flex-direction: row !important;
+  background-color: $PRIMARY;
+  align-items: center;
+  width: 100vw;
+  height: 7vh;
+}
+
+.title {
+  margin: 0 5%;
+  color: #fff;
+}
+
+.navigation {
+  display: grid;
+  margin-left: 5%;
+  column-gap: 2%;
+  grid-template-columns: repeat(3, 220px);
+}
+
+.btnRedirect {
+  height: 5vh !important;
+  border-radius: 5%;
+  background-color: $SECONDARY;
+  color: #f7f7f7;
+  border: none;
+
+  &:focus {
+    border: none;
+    outline: none;
+  }
+}
+.btnRedirect:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.btnRedirect:active {
+  color: #fff;
+  cursor: pointer;
+  background-color: $SECONDARYATPUSH;
+}
